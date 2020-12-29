@@ -1,10 +1,10 @@
 #!/bin/bash
 
-cd /vagrant/
+cd /var/lib/waagent/custom-script/download/0/project/bloc-server/
 
-/vagrant/minifab down -o faculty.com
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab down -o faculty.com
 
-/vagrant/minifab cleanup -o faculty.com
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab cleanup -o faculty.com
 
 
 
