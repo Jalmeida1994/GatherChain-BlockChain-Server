@@ -7,13 +7,8 @@ Tracing responsibility in _UML_ Diagrams using *Hiperledger Fabric* (_minifab_).
 Download the code and check the *fabric_commands.md*
 
 ## Commands
-
-### Enter Vagrant VM
-vagrant up
-vagrant ssh
-
-### Moves to Vagrant synced directory
-cd /vagrant/
+### Moves to working directory
+cd /var/lib/waagent/custom-script/download/0/project/bloc-server/
 
 ### Initialize the project
 ./commands/init.sh
