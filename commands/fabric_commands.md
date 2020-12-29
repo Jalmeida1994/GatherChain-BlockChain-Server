@@ -1,53 +1,53 @@
 # Commands to Know!
 
-### Moves to Vagrant synced directory
-cd /vagrant/
+### Moves to working directory
+cd /var/lib/waagent/custom-script/download/0/project/bloc-server/
 
 ### Up the Network
-/vagrant/minifab up -o student.com
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab up -o student.com
 
 ### Down the Network
-/vagrant/minifab down
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab down
 
 ### Network up after its down
-/vagrant/minifab netup
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab netup
 
 ### Cleanup minifab
-/vagrant/minifab cleanup
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab cleanup
 
 ## Create Channel
-/vagrant/minifab create -c testchannel
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab create -c testchannel
 
-/vagrant/minifab join
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab join
 
-/vagrant/minifab channelquery
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab channelquery
 
 ### You can now make changes to config.json
 
-/vagrant/minifab channelsign
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab channelsign
 
-/vagrant/minifab channelupdate
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab channelupdate
 
-/vagrant/minifab channelquery
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab channelquery
 
 ## Chaincode
-/vagrant/minifab install -n testcc -l go
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab install -n testcc -l go
 
-/vagrant/minifab approve
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab approve
 
-/vagrant/minifab commit -p "init","42490-43528","7bx89","42490"
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab commit -p "init","42490-43528","7bx89","42490"
 
 ### Instantiation of the chaincode
-/vagrant/minifab instantiate -n testcc -p '"init","42490-43528","7bx89","42490"'
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab instantiate -n testcc -p '"init","42490-43528","7bx89","42490"'
 
 ### Invoking (Committing the git commit)
-/vagrant$ /vagrant/minifab invoke -n testcc -p '"invoke","42490-43528","89fd04","43528"'
+/var/lib/waagent/custom-script/download/0/project/bloc-server//minifab invoke -n testcc -p '"invoke","42490-43528","89fd04","43528"'
 
 ### Query (Query the chaincode)
-/vagrant/minifab invoke -n testcc -p '"query","42490-43528"'
+/var/lib/waagent/custom-script/download/0/project/bloc-server//minifab invoke -n testcc -p '"query","42490-43528"'
 
 ## Block Query
-/vagrant/minifab blockquery
+/var/lib/waagent/custom-script/download/0/project/bloc-server//minifab blockquery
 
 ## Helper Commands
 ### Check the files permissions
