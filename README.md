@@ -29,7 +29,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Jalmeida1994/GatherChain-BlockChain-Server">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/Logo-02.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">GatherChain BlockChain Server</h3>
@@ -198,6 +198,7 @@ Project Link: [https://github.com/Jalmeida1994/GatherChain-BlockChain-Server](ht
 ## Acknowledgements
 * [FCT-UNL](https://www.fct.unl.pt/)
 * [Professor Vasco Amaral](https://docentes.fct.unl.pt/vma/)
+* [Tong Li](https://github.com/litong01/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
