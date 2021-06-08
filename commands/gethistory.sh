@@ -3,7 +3,7 @@
 cd /var/lib/waagent/custom-script/download/0/project/bloc-server/
 
 #Gets history of transactions for the group
-/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab invoke -n testcc -p \"history\",\"${1}\" -o faculty.com
+/var/lib/waagent/custom-script/download/0/project/bloc-server/minifab invoke -n testcc -c channel${1} -p \"history\",\"${1}\" -o faculty.com
 
 if [ "$1" == "-out" ]; then
 
